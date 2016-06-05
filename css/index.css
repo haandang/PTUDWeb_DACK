@@ -1510,3 +1510,16 @@ body{
 .copy-right a:hover{
   color:#94CB32;
 }
+.cart {
+  background: none repeat scroll 0 0 #FFFFFF;
+  border: 1px solid #E8E7DC;
+  cursor: pointer;
+  display: inline-block;
+  font: 9px/21px;
+  letter-spacing: 2px;
+  padding: 10px;
+  color: #525049;
+  font-family: 'Open Sans', sans-serif;
+  text-transform: uppercase;
+  margin-left: 0px;
+}

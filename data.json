@@ -1,25 +1,131 @@
 {
   "info-team":{
-    "member":[]
-  },
-  "products":{
-    "product":[
+    "member":[
       {
-        "name":"",
-        "name":"",
-        "name":"",
-        "description":""
+        "name":"Dang Van Quoc Han",
+        "desciption":"Student",
+        "id":"1312179",
+        "profile-url":"https://quochan-cv-linkedin.firebaseapp.com/child/index.html",
+        "profile-image":"https://quochan-cv-linkedin.firebaseapp.com/child/img/profile.png"
       },
-    ]
+      {
+        "name":"To Hoang Hai",
+        "desciption":"",
+        "id":"1312172",
+        "profile-url":"",
+        "profile-image":""
+      }
+    ],
+    "team":{
+      "description":""
+    },
+    "subject":{
+      "name":"Web Application Development.",
+      "teacher":"Nguyen Huy Khanh",
+      "university":"University of Science.",
+      "profile-url":"",
+      "profile-image":""
+    }
   },
-  "":{},
-  "":{},
-  "":{},
-  "":{},
-  "":{},
-  "":{},
-  "":{},
-  "":{},
-  "":{},
-  "":{}
+  "products":[
+    {
+      "name":"Iphone 4",
+      "producer":"Apple",
+      "price":"499$",
+      "description":[{
+          "camera": "5MP",
+          "screen": "LED, 3.5 inches, LED-backlit LCD 16 million colors",
+          "capacity": "16GB",
+          "size": "114.3 mm - 58.7 mm - 9.4 mm",
+          "weight": "137 gr"
+        }],
+      "image":""
+    },
+    {
+      "name":"Iphone 7",
+      "producer":"Apple",
+      "price":"1299$",
+      "description":[{
+        "camera": "12MP",
+        "screen": "4.8 inches",
+        "capacity": "64GB",
+        "size": "x x x",
+        "weight": "139 gr"
+      }],
+      "image":""
+    },
+    {
+      "name":"1280",
+      "producer":"Nokia",
+      "price":"399$",
+      "description":[{
+        "camera": "None",
+        "screen": "96 x 68 pixels, 1.36 inches",
+        "capacity": "None",
+        "size": "107.2 x 45.1 x 15.3 mm",
+        "weight": "81 gr"
+      }],
+      "image":""
+    },
+    {
+      "name":"Galaxy J7",
+      "producer":"Samsung",
+      "price":"299$",
+      "description":[{
+        "camera": "13MP, 5MP-front",
+        "screen": "5.5inches, Super AMOLED",
+        "capacity": "RAM 2GB, ROM 16GB, +MicroSD 128GB",
+        "size": "151.7 x 76.0 x 7.8 mm",
+        "weight": "169 gr"
+      }],
+      "image":""
+    }
+  ],
+  "info-header":{
+    "logo-image":"",
+    "home-url":"",
+    "about-url":"",
+    "contact-url":"",
+    "register_url":"",
+    "login-url":"",
+    "account-url":""
+  },
+  "info-footer":{
+    "follow":[{
+      "name":"Han",
+      "han-fb":"https://www.facebook.com/quochaan.dang",
+      "fb-logo":""
+    },
+    {
+      "name":"Hai",
+      "hai-fb":"https://www.facebook.com/be.bu.98",
+      "fb-logo":""
+    },
+    {
+      "name":"GitHub",
+      "git":"https://github.com/haandang/PTUDWeb_DACK",
+      "git-logo":""
+    }],
+    "our-info":"",
+    "store-location":"",
+    "order-online":""
+  },
+  "category":[
+    {
+      "name":"Apple",
+      "url":""
+    },
+    {
+      "name":"Samsung",
+      "url":""
+    },
+    {
+      "name":"Nokia",
+      "url":""
+    },
+    {
+      "name":"Microsoft",
+      "url":""
+    }
+  ]
 }
