@@ -1,114 +1,127 @@
 {
-  "info-team":{
+  "info_team":{
     "member":[
       {
         "name":"Dang Van Quoc Han",
         "desciption":"Student",
         "id":"1312179",
-        "profile-url":"https://quochan-cv-linkedin.firebaseapp.com/child/index.html",
-        "profile-image":"https://quochan-cv-linkedin.firebaseapp.com/child/img/profile.png"
+        "profile_url":"https://quochan-cv-linkedin.firebaseapp.com/child/index.html"
       },
       {
         "name":"To Hoang Hai",
-        "desciption":"",
+        "desciption":"Student",
         "id":"1312172",
-        "profile-url":"",
-        "profile-image":""
+        "profile_url":"https://www.linkedin.com/in/t%C3%B4-h%E1%BA%A3i-4890a7120?trk=nav_responsive_tab_profile_pic"
       }
     ],
-    "team":{
-      "description":""
+    "store":{
+      "name":"Mobile Store",
+      "desciption":"US",
+      "id":"WEB APP DEV",
+      "profile_url":"https://finalproject-mobileshop.firebaseapp.com/index.html"
     },
     "subject":{
       "name":"Web Application Development.",
-      "teacher":"Nguyen Huy Khanh",
-      "university":"University of Science.",
-      "profile-url":"",
-      "profile-image":""
+      "desciption":"Nguyen Huy Khanh",
+      "id":"University of Science.",
+      "profile_url":"https://www.facebook.com/n1h3khanh"
     }
   },
   "products":[
     {
+      "url":"products/iphone4.html",
       "name":"Iphone 4",
       "producer":"Apple",
       "price":"499$",
-      "description":[{
+      "description":{
           "camera": "5MP",
           "screen": "LED, 3.5 inches, LED-backlit LCD 16 million colors",
           "capacity": "16GB",
           "size": "114.3 mm - 58.7 mm - 9.4 mm",
           "weight": "137 gr"
-        }],
-      "image":""
+        },
+      "image":"https://finalproject-mobileshop.firebaseapp.com/images/m-iphone4.jpg",
+      "other":""
     },
     {
+      "url":"products/iphonr7.html",
       "name":"Iphone 7",
       "producer":"Apple",
       "price":"1299$",
-      "description":[{
+      "description":{
         "camera": "12MP",
         "screen": "4.8 inches",
         "capacity": "64GB",
         "size": "x x x",
         "weight": "139 gr"
-      }],
-      "image":""
+      },
+      "image":"https://finalproject-mobileshop.firebaseapp.com/images/m-iphone7.jpg",
+      "other":""
     },
     {
+      "url":"products/1280.html",
       "name":"1280",
       "producer":"Nokia",
       "price":"399$",
-      "description":[{
+      "description":{
         "camera": "None",
         "screen": "96 x 68 pixels, 1.36 inches",
         "capacity": "None",
         "size": "107.2 x 45.1 x 15.3 mm",
         "weight": "81 gr"
-      }],
-      "image":""
+      },
+      "image":"https://finalproject-mobileshop.firebaseapp.com/images/m-nokia-1280.jpg",
+      "other":""
     },
     {
+      "url":"products/galaxy-j7.html",
       "name":"Galaxy J7",
       "producer":"Samsung",
       "price":"299$",
-      "description":[{
+      "description":{
         "camera": "13MP, 5MP-front",
         "screen": "5.5inches, Super AMOLED",
         "capacity": "RAM 2GB, ROM 16GB, +MicroSD 128GB",
         "size": "151.7 x 76.0 x 7.8 mm",
         "weight": "169 gr"
-      }],
-      "image":""
+      },
+      "image":"https://finalproject-mobileshop.firebaseapp.com/images/m-samsung-galaxy-j7.jpg",
+      "other":""
     }
   ],
-  "info-header":{
-    "logo-image":"",
-    "home-url":"",
-    "about-url":"",
-    "contact-url":"",
+  "info_header":{
+    "logo_image":"https://finalproject-mobileshop.firebaseapp.com/images/logo.png",
+    "home_url":"https://finalproject-mobileshop.firebaseapp.com/index.html",
+    "about_url":"https://finalproject-mobileshop.firebaseapp.com/about.html",
+    "contact_url":"https://finalproject-mobileshop.firebaseapp.com/contact.html",
     "register_url":"",
-    "login-url":"",
-    "account-url":""
+    "login_url":"",
+    "account_url":""
   },
-  "info-footer":{
+  "info_footer":{
     "follow":[{
       "name":"Han",
-      "han-fb":"https://www.facebook.com/quochaan.dang",
-      "fb-logo":""
+      "url":"https://www.facebook.com/quochaan.dang",
+      "img":"https://finalproject-mobileshop.firebaseapp.com/images/facebook.png"
     },
     {
       "name":"Hai",
-      "hai-fb":"https://www.facebook.com/be.bu.98",
-      "fb-logo":""
+      "url":"https://www.facebook.com/be.bu.98",
+      "img":"https://finalproject-mobileshop.firebaseapp.com/images/facebook.png"
     },
     {
       "name":"GitHub",
-      "git":"https://github.com/haandang/PTUDWeb_DACK",
-      "git-logo":""
+      "url":"https://github.com/haandang/PTUDWeb_DACK",
+      "img":"https://finalproject-mobileshop.firebaseapp.com/images/github.png"
     }],
-    "our-info":"",
-    "store-location":"",
-    "order-online":""
+    "our_info":"A team in Website Application Development Subject at University of Science.",
+    "store_location":"227 Nguyen Van Cu street, dirtrict 5, Ho Chi Minh city.",
+    "order_online":[{
+      "phone":"(+84) 1649 375 184"
+    },
+      {
+        "phone":"(+84) 121 996 0092"
+      }]
   },
   "category":[
     {
