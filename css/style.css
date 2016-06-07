@@ -29,6 +29,7 @@ body{
 	width:80%;
 	margin:0 auto;
 }
+
 .search-bar,.header-top-nav{
 	float:right;
 }
@@ -865,6 +866,7 @@ body{
 /*-----*/
 .menu_container {
  	margin-top: 5%;
+	width:150%;
 }
 .menu_head {
 	background: #94CB32;
@@ -1494,4 +1496,9 @@ body{
 	float:right;
 	padding: 10px 0px;
 	margin-left: 3%;
+}
+.specifications{
+	margin:10px;
+	padding:10px;
+	width:100%;
 }
