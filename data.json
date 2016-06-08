@@ -1,144 +1,149 @@
 {
-  "info_team":{
-    "member":[
-      {
-        "name":"Dang Van Quoc Han",
-        "desciption":"Student",
-        "id":"1312179",
-        "profile_url":"https://quochan-cv-linkedin.firebaseapp.com/child/index.html"
-      },
-      {
-        "name":"To Hoang Hai",
-        "desciption":"Student",
-        "id":"1312172",
-        "profile_url":"https://www.linkedin.com/in/t%C3%B4-h%E1%BA%A3i-4890a7120?trk=nav_responsive_tab_profile_pic"
-      }
-    ],
-    "store":{
-      "name":"Mobile Store",
-      "desciption":"US",
-      "id":"WEB APP DEV",
-      "profile_url":"https://finalproject-mobileshop.firebaseapp.com/index.html"
-    },
-    "subject":{
-      "name":"Web Application Development.",
-      "desciption":"Nguyen Huy Khanh",
-      "id":"University of Science.",
-      "profile_url":"https://www.facebook.com/n1h3khanh"
-    }
+  "category" : [ {
+    "name" : "Apple",
+    "url" : ""
+  }, {
+    "name" : "Samsung",
+    "url" : ""
+  }, {
+    "name" : "Nokia",
+    "url" : ""
+  }, {
+    "name" : "Microsoft",
+    "url" : ""
+  } ],
+  "info_footer" : {
+    "follow" : [ {
+      "img" : "https://finalproject-mobileshop.firebaseapp.com/images/facebook.png",
+      "name" : "Han",
+      "url" : "https://www.facebook.com/quochaan.dang"
+    }, {
+      "img" : "https://finalproject-mobileshop.firebaseapp.com/images/facebook.png",
+      "name" : "Hai",
+      "url" : "https://www.facebook.com/be.bu.98"
+    }, {
+      "img" : "https://finalproject-mobileshop.firebaseapp.com/images/github.png",
+      "name" : "GitHub",
+      "url" : "https://github.com/haandang/PTUDWeb_DACK"
+    } ],
+    "order_online" : [ {
+      "phone" : "(+84) 1649 375 184"
+    }, {
+      "phone" : "(+84) 121 996 0092"
+    } ],
+    "our_info" : "A team in Website Application Development Subject at University of Science.",
+    "store_location" : "227 Nguyen Van Cu street, dirtrict 5, Ho Chi Minh city."
   },
-  "products":[
-    {
-      "url":"products/iphone4.html",
-      "name":"Iphone 4",
-      "producer":"Apple",
-      "price":"499$",
-      "description":{
-          "camera": "5MP",
-          "screen": "LED, 3.5 inches, LED-backlit LCD 16 million colors",
-          "capacity": "16GB",
-          "size": "114.3 mm - 58.7 mm - 9.4 mm",
-          "weight": "137 gr"
-        },
-      "image":"https://finalproject-mobileshop.firebaseapp.com/images/m-iphone4.jpg",
-      "other":""
-    },
-    {
-      "url":"products/iphonr7.html",
-      "name":"Iphone 7",
-      "producer":"Apple",
-      "price":"1299$",
-      "description":{
-        "camera": "12MP",
-        "screen": "4.8 inches",
-        "capacity": "64GB",
-        "size": "x x x",
-        "weight": "139 gr"
-      },
-      "image":"https://finalproject-mobileshop.firebaseapp.com/images/m-iphone7.jpg",
-      "other":""
-    },
-    {
-      "url":"products/1280.html",
-      "name":"1280",
-      "producer":"Nokia",
-      "price":"399$",
-      "description":{
-        "camera": "None",
-        "screen": "96 x 68 pixels, 1.36 inches",
-        "capacity": "None",
-        "size": "107.2 x 45.1 x 15.3 mm",
-        "weight": "81 gr"
-      },
-      "image":"https://finalproject-mobileshop.firebaseapp.com/images/m-nokia-1280.jpg",
-      "other":""
-    },
-    {
-      "url":"products/galaxy-j7.html",
-      "name":"Galaxy J7",
-      "producer":"Samsung",
-      "price":"299$",
-      "description":{
-        "camera": "13MP, 5MP-front",
-        "screen": "5.5inches, Super AMOLED",
-        "capacity": "RAM 2GB, ROM 16GB, +MicroSD 128GB",
-        "size": "151.7 x 76.0 x 7.8 mm",
-        "weight": "169 gr"
-      },
-      "image":"https://finalproject-mobileshop.firebaseapp.com/images/m-samsung-galaxy-j7.jpg",
-      "other":""
-    }
-  ],
-  "info_header":{
-    "logo_image":"https://finalproject-mobileshop.firebaseapp.com/images/logo.png",
-    "home_url":"https://finalproject-mobileshop.firebaseapp.com/index.html",
-    "about_url":"https://finalproject-mobileshop.firebaseapp.com/about.html",
-    "contact_url":"https://finalproject-mobileshop.firebaseapp.com/contact.html",
-    "register_url":"",
-    "login_url":"",
-    "account_url":""
+  "info_header" : {
+    "account_url" : "",
+    "header_menu" : [ {
+      "name" : "Contact",
+      "url" : "contact.html"
+    }, {
+      "name" : "About",
+      "url" : "about.html"
+    }, {
+      "name" : "Home",
+      "url" : "index.html"
+    } ],
+    "header_menu_product":[ {
+      "name" : "Contact",
+      "url" : "../contact.html"
+    }, {
+      "name" : "About",
+      "url" : "../about.html"
+    }, {
+      "name" : "Home",
+      "url" : "../index.html"
+    } ],
+    "login_url" : "",
+    "logo_image" : "https://finalproject-mobileshop.firebaseapp.com/images/logo.png",
+    "register_url" : ""
   },
-  "info_footer":{
-    "follow":[{
-      "name":"Han",
-      "url":"https://www.facebook.com/quochaan.dang",
-      "img":"https://finalproject-mobileshop.firebaseapp.com/images/facebook.png"
+  "info_team" : [ {
+    "desciption" : "Student",
+    "id" : "1312179",
+    "image" : "images/member-han.jpg",
+    "name" : "Dang Van Quoc Han",
+    "profile_url" : "https://quochan-cv-linkedin.firebaseapp.com/child/index.html",
+    "title" : "Han"
+  }, {
+    "desciption" : "Student",
+    "id" : "1312172",
+    "image" : "images/member-hai.jpg",
+    "name" : "To Hoang Hai",
+    "profile_url" : "https://www.linkedin.com/in/t%C3%B4-h%E1%BA%A3i-4890a7120?trk=nav_responsive_tab_profile_pic",
+    "title" : "Hai"
+  }, {
+    "desciption" : "US",
+    "id" : "WEB APP DEV",
+    "image" : "images/store.jpg",
+    "name" : "Mobile Store",
+    "profile_url" : "index.html",
+    "title" : "Store"
+  }, {
+    "desciption" : "Nguyen Huy Khanh",
+    "id" : "University of Science.",
+    "image" : "images/subject.jpg",
+    "name" : "Web Application Development.",
+    "profile_url" : "https://www.facebook.com/n1h3khanh",
+    "title" : "Subject"
+  } ],
+  "products" : [ {
+    "description" : {
+      "camera" : "5MP",
+      "capacity" : "16GB",
+      "screen" : "LED, 3.5 inches, LED-backlit LCD 16 million colors",
+      "size" : "114.3 mm - 58.7 mm - 9.4 mm",
+      "weight" : "137 gr"
     },
-    {
-      "name":"Hai",
-      "url":"https://www.facebook.com/be.bu.98",
-      "img":"https://finalproject-mobileshop.firebaseapp.com/images/facebook.png"
+    "image" : "https://finalproject-mobileshop.firebaseapp.com/images/m-iphone4.jpg",
+    "name" : "Iphone 4",
+    "other" : "Only select sellers who maintain a high performance bar may offer Certified Refurbished products on Amazon. Certified Refurbished products are tested and certified to look and work like new, with limited to no wear, by a third-party refurbisher. The refurbishing process includes functionality testing, cosmetic inspection, and repackaging. The product is backed by a minimum 90-day warranty, and may arrive in a generic brown or white box. The product ships with a charger and cable, but does not include headphone, manual or SIM card. Accessories may be generic and not directly from the Manufacturer.",
+    "price" : "499$",
+    "producer" : "Apple",
+    "url" : "products/iphone4.html"
+  }, {
+    "description" : {
+      "camera" : "12MP",
+      "capacity" : "64GB",
+      "screen" : "4.8 inches",
+      "size" : "x x x",
+      "weight" : "139 gr"
     },
-    {
-      "name":"GitHub",
-      "url":"https://github.com/haandang/PTUDWeb_DACK",
-      "img":"https://finalproject-mobileshop.firebaseapp.com/images/github.png"
-    }],
-    "our_info":"A team in Website Application Development Subject at University of Science.",
-    "store_location":"227 Nguyen Van Cu street, dirtrict 5, Ho Chi Minh city.",
-    "order_online":[{
-      "phone":"(+84) 1649 375 184"
+    "image" : "https://finalproject-mobileshop.firebaseapp.com/images/m-iphone7.jpg",
+    "name" : "Iphone 7",
+    "other" : "Photos in listing are my photos of actual phone that will be sent to you. Ships with tracking and signature confirmation from Atlanta, GA. Includes Headphones, Cable and Charger. White Screen ",
+    "price" : "1299$",
+    "producer" : "Apple",
+    "url" : "products/iphone7.html"
+  }, {
+    "description" : {
+      "camera" : "None",
+      "capacity" : "None",
+      "screen" : "96 x 68 pixels, 1.36 inches",
+      "size" : "107.2 x 45.1 x 15.3 mm",
+      "weight" : "81 gr"
     },
-      {
-        "phone":"(+84) 121 996 0092"
-      }]
-  },
-  "category":[
-    {
-      "name":"Apple",
-      "url":""
+    "image" : "https://finalproject-mobileshop.firebaseapp.com/images/m-nokia-1280.jpg",
+    "name" : "1280",
+    "other" : " Only 6 left in stock. Estimated Delivery Date: June 10 - 15 when you choose Expedited at checkout. Ships from and sold by ALLASPIRE.",
+    "price" : "399$",
+    "producer" : "Nokia",
+    "url" : "products/1280.html"
+  }, {
+    "description" : {
+      "camera" : "13MP, 5MP-front",
+      "capacity" : "RAM 2GB, ROM 16GB, +MicroSD 128GB",
+      "screen" : "5.5inches, Super AMOLED",
+      "size" : "151.7 x 76.0 x 7.8 mm",
+      "weight" : "169 gr"
     },
-    {
-      "name":"Samsung",
-      "url":""
-    },
-    {
-      "name":"Nokia",
-      "url":""
-    },
-    {
-      "name":"Microsoft",
-      "url":""
-    }
-  ]
+    "image" : "https://finalproject-mobileshop.firebaseapp.com/images/m-samsung-galaxy-j7.jpg",
+    "name" : "Galaxy J7",
+    "other" : "What is an international version?: An international version item is a product not originally intended for sale in the U.S. Depending on the country of origin, international versions of a product may differ from domestic versions in their default settings, packaging, AC adapters, accessories, manufacturer warranties, and other features",
+    "price" : "299$",
+    "producer" : "Samsung",
+    "url" : "products/galaxy-j7.html"
+  } ]
 }
