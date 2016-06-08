@@ -1,4 +1,5 @@
-var app = angular.module('MyMobileStore', ['ui.bootstrap', 'ngRoute', 'firebase']);
+var app = angular.module('MyMobileStore', ['ngSanitize','firebase']);
+
 app.controller('DataController', ['$scope','$http','$firebaseObject', function($scope, $http, $firebaseObject)
 {
     var ref = new Firebase('https://finalproject-mobileshop.firebaseio.com/');
